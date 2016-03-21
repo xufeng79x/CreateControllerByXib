@@ -13,6 +13,9 @@
 		181DA59F1C9F93170004F817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181DA59D1C9F93170004F817 /* Main.storyboard */; };
 		181DA5A11C9F93170004F817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181DA5A01C9F93170004F817 /* Assets.xcassets */; };
 		181DA5A41C9F93170004F817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181DA5A21C9F93170004F817 /* LaunchScreen.storyboard */; };
+		181DA5AC1C9F94960004F817 /* MyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181DA5AB1C9F94960004F817 /* MyController.xib */; };
+		181DA5B41C9F96200004F817 /* MyControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DA5B31C9F96200004F817 /* MyControllerViewController.m */; };
+		181DA5BA1C9F9AF90004F817 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181DA5B91C9F9AF90004F817 /* MyController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		181DA5A01C9F93170004F817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181DA5A31C9F93170004F817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181DA5A51C9F93170004F817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181DA5AB1C9F94960004F817 /* MyController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyController.xib; sourceTree = "<group>"; };
+		181DA5B21C9F96200004F817 /* MyControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyControllerViewController.h; path = ../MyControllerViewController.h; sourceTree = "<group>"; };
+		181DA5B31C9F96200004F817 /* MyControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyControllerViewController.m; path = ../MyControllerViewController.m; sourceTree = "<group>"; };
+		181DA5B81C9F9AF90004F817 /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyController.h; path = ../MyController.h; sourceTree = "<group>"; };
+		181DA5B91C9F9AF90004F817 /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyController.m; path = ../MyController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,16 @@
 		181DA5931C9F93170004F817 /* CreateViewControllerByXib */ = {
 			isa = PBXGroup;
 			children = (
+				181DA5B81C9F9AF90004F817 /* MyController.h */,
+				181DA5B91C9F9AF90004F817 /* MyController.m */,
+				181DA5B21C9F96200004F817 /* MyControllerViewController.h */,
+				181DA5B31C9F96200004F817 /* MyControllerViewController.m */,
 				181DA5971C9F93170004F817 /* AppDelegate.h */,
 				181DA5981C9F93170004F817 /* AppDelegate.m */,
 				181DA59A1C9F93170004F817 /* ViewController.h */,
 				181DA59B1C9F93170004F817 /* ViewController.m */,
 				181DA59D1C9F93170004F817 /* Main.storyboard */,
+				181DA5AB1C9F94960004F817 /* MyController.xib */,
 				181DA5A01C9F93170004F817 /* Assets.xcassets */,
 				181DA5A21C9F93170004F817 /* LaunchScreen.storyboard */,
 				181DA5A51C9F93170004F817 /* Info.plist */,
@@ -139,6 +152,7 @@
 				181DA5A41C9F93170004F817 /* LaunchScreen.storyboard in Resources */,
 				181DA5A11C9F93170004F817 /* Assets.xcassets in Resources */,
 				181DA59F1C9F93170004F817 /* Main.storyboard in Resources */,
+				181DA5AC1C9F94960004F817 /* MyController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181DA5B41C9F96200004F817 /* MyControllerViewController.m in Sources */,
 				181DA59C1C9F93170004F817 /* ViewController.m in Sources */,
+				181DA5BA1C9F9AF90004F817 /* MyController.m in Sources */,
 				181DA5991C9F93170004F817 /* AppDelegate.m in Sources */,
 				181DA5961C9F93170004F817 /* main.m in Sources */,
 			);
@@ -298,6 +314,7 @@
 				181DA5AA1C9F93170004F817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
